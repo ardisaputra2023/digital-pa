@@ -1,0 +1,37 @@
+.clients-logos {
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.clients-logos .single-image {
+    display: inline-block;
+    margin: 13px 10px;
+    background-color: var(--white);
+    line-height: 100px;
+    padding: 8px 25px;
+    border-radius: 8px;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+    border: 1px solid #eee;
+}
+
+.clients-logos img {
+    max-width: 170px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
