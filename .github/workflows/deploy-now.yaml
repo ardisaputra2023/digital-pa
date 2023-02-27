@@ -14,7 +14,7 @@ jobs:
         with:
           api-key: ${{ secrets.IONOS_API_KEY }}
           project: ${{ secrets.IONOS_PROJECT_ID }}
-          service-host: api-eu.ionos.space
+          service-host: https://github.com/ardisaputra2023/digital-pa
       - name: checkout
         if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
         uses: actions/checkout@v2
